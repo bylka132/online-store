@@ -1,0 +1,51 @@
+
+.auth, .reg, .repass{
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	top: 0;
+	left: 0;
+}
+.auth:target, .reg:target, .repass:target{
+	display: block;
+}
+.modal__area{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.modal__body{
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+}
+.modal__content{
+	width: 320px;
+	background-color: #fff;
+	color: #000;
+	max-width: 800px;
+	padding: 30px;
+	position: relative;
+}
+.modal__title{
+	text-align: center;
+	font-size: 28px;
+	margin: 0px 0px 1em 0px;
+}
+.modal__form-items{
+	width: 100%;
+	padding: 5px;
+	margin: 10px 0;
+	border: 1px solid black;
+	font-size: 16px;
+}
+.modal__links{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0 0 0;
+	font-size: 16px;
+}
